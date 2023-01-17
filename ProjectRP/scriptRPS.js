@@ -1,4 +1,4 @@
-//Function to get the computer choice and return(using Math.random() function)
+//Function to get the computer choice and return that choice (using Math.random() function)
 
 const choices = ["rock", "paper", "scissors"]
 
@@ -28,7 +28,7 @@ function playerSelection(){
 
 /*The following function takes two parameters and declare the winner.*/
 
-function playRound(playerSelection, computerSelection){
+function checkWinner(playerSelection, computerSelection){
 
 
     if (playerSelection === computerSelection) {
@@ -75,15 +75,20 @@ function playRound(playerSelection, computerSelection){
         
 }
 
-// This function plays the game 5 times.
+// This function plays the game.
 
-function game(){
-    for (let i = 1; i <= 5; i++) {
-        
-        const computerSelection = getComputerChoice();
-        playRound(playerSelection, computerSelection);
-        
+function playRound(){
+    const playerChoice = playerSelection();
+    console.log(playerChoice);
+    const computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    const winner = checkWinner(playerChoice, computerChoice);
+    console.log(winner);
 
-    }
+
+}
+
+function game() {
+   playRound();
 }
 game();
