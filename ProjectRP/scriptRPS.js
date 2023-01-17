@@ -89,6 +89,9 @@ function playRound(){
 }
 
 function game() {
-   playRound();
+    for (let i = 1; i<=5; i++){
+        playRound();
+    }
 }
+
 game();
