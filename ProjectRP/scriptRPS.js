@@ -1,5 +1,8 @@
+//Function to get the computer choice and return(using Math.random() function)
+
+const choices = ["rock", "paper", "scissors"]
+
 function getComputerChoice() {
-    let getComputerChoice = ["rock", "paper", "scissors"]
     let memorize = Math.floor(Math.random() * getComputerChoice.length) + 1
 
     if (memorize === 1){
@@ -13,6 +16,15 @@ function getComputerChoice() {
     }
 }
 
+//This function gets the user input.
+
+function playerSelection(){
+    let input = prompt("Enter Rock, Paper or Scissors.");
+    input = input.toLowerCase();
+    return input;
+}
+
+// console.log(playerSelection());
 
 /*The following function takes two parameters and declare the winner.*/
 
@@ -62,19 +74,16 @@ function playRound(playerSelection, computerSelection){
 
         
 }
-    
-    const playerSelection = "rock";
-    console.log(getComputerChoice());
-    const computerSelection = getComputerChoice();
+
+// This function plays the game 5 times.
 
 function game(){
     for (let i = 1; i <= 5; i++) {
         
         const computerSelection = getComputerChoice();
-        console.log(playRound(playerSelection, computerSelection));
+        playRound(playerSelection, computerSelection);
         
 
     }
 }
-
-console.log(game());
+game();
