@@ -16,6 +16,9 @@ console.log(type);*/
 /*fruits[2] = "Grape"
 console.log(fruits);*/
 
-let x = fruits.splice(1, 2);
-console.log(x);
+/*let x = fruits.splice(1, 2);
+console.log(x);*/
+
+let arrange = fruits.sort();
+console.log(arrange);
 
