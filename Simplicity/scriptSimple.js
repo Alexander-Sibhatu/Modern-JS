@@ -7,6 +7,9 @@ fruits = ["Banana", "Kiwi", "Orange", "Apple"]
 
 //console.log(fruits[fruits.length-1]);
 
-let added = fruits.push("Lemon");
-console.log(fruits);
+/*let added = fruits.push("Lemon");
+console.log(fruits);*/
+
+let type = typeof fruits;
+console.log(type);
 
