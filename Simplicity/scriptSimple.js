@@ -10,6 +10,9 @@ fruits = ["Banana", "Kiwi", "Orange", "Apple"]
 /*let added = fruits.push("Lemon");
 console.log(fruits);*/
 
-let type = typeof fruits;
-console.log(type);
+/*let type = typeof fruits;
+console.log(type);*/
+
+fruits[2] = "Grape"
+console.log(fruits);
 
