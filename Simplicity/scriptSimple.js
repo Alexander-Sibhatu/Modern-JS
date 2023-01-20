@@ -13,6 +13,9 @@ console.log(fruits);*/
 /*let type = typeof fruits;
 console.log(type);*/
 
-fruits[2] = "Grape"
-console.log(fruits);
+/*fruits[2] = "Grape"
+console.log(fruits);*/
+
+let x = fruits.splice(1, 2);
+console.log(x);
 
