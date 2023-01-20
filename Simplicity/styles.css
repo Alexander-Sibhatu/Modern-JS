@@ -3,7 +3,6 @@
 h3 {
     display: flex;
     justify-content: center;
-    margin: 20% 50% 80% 50%;
     flex: 1;
     background-color: rgb(114, 255, 208);
     color: black;
