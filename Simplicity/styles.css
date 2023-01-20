@@ -1,4 +1,11 @@
+.inst {
+    display: flex;
+}
+
 h3 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
     background-color: rgb(114, 255, 208);
     color: black;
     text-shadow: .3em;
