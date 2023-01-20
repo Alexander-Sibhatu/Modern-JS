@@ -1,12 +1,18 @@
 .inst {
     display: flex;
+    
+    background-color: bisque;
 }
 
 h3 {
     display: flex;
-    flex: 1;
     justify-content: center;
+    align-items: center;
+    flex: 1;
     background-color: rgb(114, 255, 208);
     color: black;
     text-shadow: .3em;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
 }
