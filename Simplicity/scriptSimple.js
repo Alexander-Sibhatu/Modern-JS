@@ -19,6 +19,11 @@ console.log(fruits);*/
 /*let x = fruits.splice(1, 2);
 console.log(x);*/
 
-let arrange = fruits.sort();
-console.log(arrange);
+/*let arrange = fruits.sort();
+console.log(arrange);*/
+
+/*  --------------------------------------------------------------------------------  */
+
+const d = new Date();
+console.log(d);
 
