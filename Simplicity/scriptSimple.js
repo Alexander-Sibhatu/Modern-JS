@@ -27,5 +27,6 @@ console.log(arrange);*/
 const d = new Date();
 console.log(d);
 
-console.log(d.getFullYear())
+console.log(d.getFullYear());
+console.log(d.getMonth());
 
