@@ -46,10 +46,9 @@ function product(title, description, category, price) {
         console.log(`Category: ${this.category}`);
         console.log(`Price: ${this.price}`);
         
-    }
-
+    };
+}
     const product1 = new product("iphone", "phone", "electronic", 1200);
 
     product1.display();
 
-};
