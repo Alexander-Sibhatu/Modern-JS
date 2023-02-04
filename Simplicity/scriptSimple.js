@@ -52,3 +52,6 @@ function product(title, description, category, price) {
 
     product1.display();
 
+    //Accessing properties by name.
+    console.log(product1.title);
+
