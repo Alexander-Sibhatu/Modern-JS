@@ -35,10 +35,10 @@ console.log(d.getMonth());
 /* ---------------------------------------------------------------------*/
 
 function product(title, description, category, price) {
-    this.title = title
-    this.description = description
-    this.category = category
-    this.price = price
+    this.title = title;
+    this.description = description;
+    this.category = category;
+    this.price = price;
 
     this.display = function() {
         console.log(`Title: ${this.title}`);
@@ -48,7 +48,7 @@ function product(title, description, category, price) {
         
     }
 
-    const product1 = new product("iphone", "phone", "electronic", 1200)
+    const product1 = new product("iphone", "phone", "electronic", 1200);
 
     product1.display();
 
