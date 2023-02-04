@@ -24,9 +24,32 @@ console.log(arrange);*/
 
 /*  --------------------------------------------------------------------------------  */
 
+/*
 const d = new Date();
 console.log(d);
 
 console.log(d.getFullYear());
 console.log(d.getMonth());
+*/
 
+/* ---------------------------------------------------------------------*/
+
+function product(title, description, category, price) {
+    this.title = title
+    this.description = description
+    this.category = category
+    this.price = price
+
+    this.display = function() {
+        console.log(`Title: ${this.title}`);
+        console.log(`Description: ${this.description}`);
+        console.log(`Category: ${this.category}`);
+        console.log(`Price: ${this.price}`);
+        
+    }
+
+    const product1 = new product("iphone", "phone", "electronic", 1200)
+
+    product1.display();
+
+};
