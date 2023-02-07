@@ -23,7 +23,7 @@ console.log(squareNumber);
 */
 
 
-/* map array method */
+/* map array method 
 
 const squareArray = number.map(function(value) {
     return value*value;
@@ -31,4 +31,22 @@ const squareArray = number.map(function(value) {
 
 console.log(squareArray);
 
+*/
 
+
+/* filter array method */
+
+const employees = [
+    {id: 2, empName: "Masimo", dep: "chemistry"},
+    {id: 4, empName: "Lina", dep: "mechanical"},
+    {id: 6, empName: "Alex", dep: "HR"},
+    {id: 12, empName: "Anisul", dep: "Logistics"},
+];
+
+let employeesInHRDep = employees.filter( e => 
+    e.dep === "HR"
+);
+
+for (let emp of employeesInHRDep) {
+    console.log(emp.empName);
+}
