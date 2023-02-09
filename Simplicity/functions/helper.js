@@ -1,4 +1,4 @@
-class Student {
+export class Student {
     constructor (age, nationality) {
         this.age = age;
         this.nationality = nationality;
