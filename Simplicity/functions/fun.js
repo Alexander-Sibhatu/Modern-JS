@@ -1,3 +1,8 @@
+// importing student from helper.js
+import { Student } from "./helper.js";
+
+
+
 //Array methods
 
 //Array of objects
@@ -54,17 +59,7 @@ for (let emp of employeesInHRDep) {
 //--------------------------------------------------------------------
 
 
-class Student {
-    constructor (age, nationality) {
-        this.age = age;
-        this.nationality = nationality;
 
-    }
-
-    printInfo () {
-        console.log(`age: ${this.age} nationality: ${this.nationality}`);
-    }
-}
 
 const Alex = new Student(30, "Geez"); 
 Alex.printInfo();
