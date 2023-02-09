@@ -34,7 +34,7 @@ console.log(squareArray);
 */
 
 
-/* filter array method */
+/* filter array method 
 
 const employees = [
     {id: 2, empName: "Masimo", dep: "chemistry"},
@@ -50,3 +50,23 @@ let employeesInHRDep = employees.filter( e =>
 for (let emp of employeesInHRDep) {
     console.log(emp.empName);
 }
+*/
+//--------------------------------------------------------------------
+
+
+class Student {
+    constructor (age, nationality) {
+        this.age = age;
+        this.nationality = nationality;
+
+    }
+
+    printInfo () {
+        console.log(`age: ${this.age} nationality: ${this.nationality}`);
+    }
+}
+
+const Alex = new Student(30, "Geez"); 
+Alex.printInfo();
+
+
