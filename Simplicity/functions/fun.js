@@ -1,7 +1,3 @@
-// importing student from helper.js
-import { Student } from "./helper.js";
-
-
 
 //Array methods
 
@@ -61,7 +57,5 @@ for (let emp of employeesInHRDep) {
 
 
 
-const Alex = new Student(30, "Geez"); 
-Alex.printInfo();
 
 
