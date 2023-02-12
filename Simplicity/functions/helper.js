@@ -1,11 +1,12 @@
 export class Student {
-    constructor (age, nationality) {
+    constructor (name, age, nationality) {
+        this.name = name;
         this.age = age;
         this.nationality = nationality;
 
     }
 
     printInfo () {
-        console.log(`age: ${this.age} nationality: ${this.nationality}`);
+        console.log(`name: ${this.name} \nage: ${this.age} \nnationality: ${this.nationality}`);
     }
 }
